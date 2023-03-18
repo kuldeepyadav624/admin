@@ -3,170 +3,223 @@ import React from "react";
 function Table() {
   return (
     <>
-      <div className="mohit">
-        <div className="box" id="box-1">
-          <div className="container">
-            <div className="row">
-              <div className="col-sm-2"></div>
-              <div className="col-sm-5">
-                <table className="table table-striped">
-                  <thead>
-                    <tr>
-                      <th scope="col">#</th>
-                      <th scope="col">First</th>
-                      <th scope="col">Last</th>
-                      <th scope="col">Handle</th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">1</th>
-                      <td>Mark</td>
-                      <td>Otto</td>
-                      <td>@mdo</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">2</th>
-                      <td>Jacob</td>
-                      <td>Thornton</td>
-                      <td>@fat</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">3</th>
-                      <td>Larry</td>
-                      <td>the Bird</td>
-                      <td>@twitter</td>
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="box" id="box-2">
-          <div className="col-lg-5 ps-lg-2 mb-3">
-            <div className="card h-lg-100">
-              <div className="card-header">
-                <div className="row flex-between-center">
-                  <div className="col-auto">
-                    <h6 className="mb-0">Total Sales</h6>
-                  </div>
-                  <div className="col-auto d-flex">
-                    <select className="form-select form-select-sm select-month me-2">
-                      <option value="0">January</option>
-                      <option value="1">February</option>
-                      <option value="2">March</option>
-                      <option value="3">April</option>
-                      <option value="4">May</option>
-                      <option value="5">Jun</option>
-                      <option value="6">July</option>
-                      <option value="7">August</option>
-                      <option value="8">September</option>
-                      <option value="9">October</option>
-                      <option value="10">November</option>
-                      <option value="11">December</option>
-                    </select>
-                    <div className="dropdown font-sans-serif btn-reveal-trigger">
-                      <button
-                        className="btn btn-link text-600 btn-sm dropdown-toggle dropdown-caret-none btn-reveal"
-                        type="button"
-                        id="dropdown-total-sales"
-                        data-bs-toggle="dropdown"
-                        data-boundary="viewport"
-                        aria-haspopup="true"
-                        aria-expanded="false"
-                      >
-                        <svg
-                          className="svg-inline--fa fa-ellipsis-h fa-w-16 fs--2"
-                          aria-hidden="true"
-                          focusable="false"
-                          data-prefix="fas"
-                          data-icon="ellipsis-h"
-                          role="img"
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 512 512"
-                          data-fa-i2svg=""
-                        >
-                          <path
-                            fill="currentColor"
-                            d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z"
-                          ></path>
-                        </svg>
-                      </button>
-                      <div
-                        className="dropdown-menu dropdown-menu-end border py-2"
-                        aria-labelledby="dropdown-total-sales"
-                      >
-                        <a className="dropdown-item" href="#!">
-                          View
-                        </a>
-                        <a className="dropdown-item" href="#!">
-                          Export
-                        </a>
-                        <div className="dropdown-divider"></div>
-                        <a className="dropdown-item text-danger" href="#!">
-                          Remove
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="card-body h-100 pe-0">
-                <div
-                  className="echart-line-total-sales h-100"
-                  data-echart-responsive="true"
-                  echarts_instance="ec_1678782469907"
-                ></div>
-                <canvas data-zr-dom-id="zr_0" width="401" height="283"></canvas>
-              </div>
-              <div className="ab">Mar 15, 50</div>
-            </div>
-          </div>
-        </div>
-      </div>
+      	{/* <div class="row g-4 mb-4">
+				<div class="col-12 col-lg-6">
+					<div class="app-card app-card-chart h-100 shadow-sm">
+						<div class="app-card-header p-3">
+							<div class="row justify-content-between align-items-center">
+								<div class="col-auto">
+									<h4 class="app-card-title">Employee Work Detail Chart</h4>
+								</div>
+								<div class="col-auto">
+									<div class="card-header-action">
+										<a href="charts.html">More charts</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="app-card-body p-3 p-lg-4">
+							<div class="mb-3 d-flex">
+								<select class="form-select form-select-sm ms-auto d-inline-flex w-auto">
+									<option value="1" selected>This week</option>
+									<option value="2">Today</option>
+									<option value="3">This Month</option>
+									<option value="3">This Year</option>
+								</select>
+							</div>
+							<div class="chart-container">
+								<canvas id="canvas-linechart" ></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="app-card app-card-chart h-100 shadow-sm">
+						<div class="app-card-header p-3">
+							<div class="row justify-content-between align-items-center">
+								<div class="col-auto">
+									<h4 class="app-card-title">Donation Chart</h4>
+								</div>
+								<div class="col-auto">
+									<div class="card-header-action">
+										<a href="charts.html">More charts</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="app-card-body p-3 p-lg-4">
+							<div class="mb-3 d-flex">
+								<select class="form-select form-select-sm ms-auto d-inline-flex w-auto">
+									<option value="1" selected>This week</option>
+									<option value="2">Today</option>
+									<option value="3">This Month</option>
+									<option value="3">This Year</option>
+								</select>
+							</div>
+							<div class="chart-container">
+								<canvas id="canvas-barchart" ></canvas>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div class="row g-4 mb-4">
+				<div class="col-12 col-lg-6">
+					<div class="app-card app-card-progress-list h-100 shadow-sm">
+						<div class="app-card-header p-3">
+							<div class="row justify-content-between align-items-center">
+								<div class="col-auto">
+									<h4 class="app-card-title">Activity</h4>
+								</div>
+								<div class="col-auto">
+									<div class="card-header-action">
+
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="app-card-body">
+							<div class="item p-3">
+								<div class="row align-items-center">
+									<div class="col">
+										<div class="title mb-1 ">Donation capms Activity</div>
+										<div class="progress">
+											<div class="progress-bar bg-red" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="col-auto">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</div>
+								</div>
+								<a class="item-link-mask" href="#"></a>
+							</div>
+
+
+							<div class="item p-3">
+								<div class="row align-items-center">
+									<div class="col">
+										<div class="title mb-1 ">Employee Activity</div>
+										<div class="progress">
+											<div class="progress-bar bg-red" role="progressbar" style="width: 34%;" aria-valuenow="34" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="col-auto">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</div>
+								</div>
+								<a class="item-link-mask" href="#"></a>
+							</div>
+
+							<div class="item p-3">
+								<div class="row align-items-center">
+									<div class="col">
+										<div class="title mb-1 ">Volunteer Acivity</div>
+										<div class="progress">
+											<div class="progress-bar bg-red" role="progressbar" style="width: 68%;" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="col-auto">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</div>
+								</div>
+								<a class="item-link-mask" href="#"></a>
+							</div>
+
+							<div class="item p-3">
+								<div class="row align-items-center">
+									<div class="col">
+										<div class="title mb-1 ">Lorem, ipsum.</div>
+										<div class="progress">
+											<div class="progress-bar bg-red" role="progressbar" style="width: 52%;" aria-valuenow="52" aria-valuemin="0" aria-valuemax="100"></div>
+										</div>
+									</div>
+									<div class="col-auto">
+										<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-chevron-right" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+											<path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
+										</svg>
+									</div>
+								</div>
+								<a class="item-link-mask" href="#"></a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg-6">
+					<div class="app-card app-card-stats-table h-100 shadow-sm">
+						<div class="app-card-header p-3">
+							<div class="row justify-content-between align-items-center">
+								<div class="col-auto">
+									<h4 class="app-card-title">Enployee List</h4>
+								</div>
+								<div class="col-auto">
+									<div class="card-header-action">
+										<a href="#">View report</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="app-card-body p-3 p-lg-4">
+							<div class="table-responsive">
+								<table class="table table-borderless mb-0">
+									<thead>
+										<tr>
+											<th class="meta">Name</th>
+											<th class="meta stat-cell">Employee Id</th>
+											<th class="meta stat-cell">Today Work Rate</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td><a href="#">Mohit Sharma</a></td>
+											<td class="stat-cell">1</td>
+											<td class="stat-cell">
+												<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-up text-success" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+												</svg>
+												30%
+											</td>
+										</tr>
+										<tr>
+											<td><a href="#">Akshay Sharma</a></td>
+											<td class="stat-cell">2</td>
+											<td class="stat-cell">23%</td>
+										</tr>
+										<tr>
+											<td><a href="#">Ankit Jangid</a></td>
+											<td class="stat-cell">3</td>
+											<td class="stat-cell">
+												<svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-arrow-down text-danger" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z" />
+												</svg>
+												20%
+											</td>
+										</tr>
+										<tr>
+											<td><a href="#">Pranjal Sharma</a></td>
+											<td class="stat-cell">4</td>
+											<td class="stat-cell">-</td>
+										</tr>
+										<tr>
+											<td><a href="#">Aman Sharma</a></td>
+											<td class="stat-cell">5</td>
+											<td class="stat-cell">15%</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div> */}
+
     </>
   );
 }
