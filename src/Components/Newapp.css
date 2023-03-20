@@ -5,10 +5,11 @@
     margin: 0;
     box-sizing: border-box;
 }
-.mybody{
+body{
     background:url('https://media.istockphoto.com/id/1129543554/photo/hand-giving-red-heart-for-help-blood-donation-hospital-or-healthcare-concept.jpg?b=1&s=170667a&w=0&k=20&c=QB8uK83dy7iwWUMudZ9ENu8711nADSyAqjKvypgk0zI=');
     background-repeat: no-repeat;
-    background-size: 1600px;
+    background-size: 100vw 100vh;
+
 }
 .background{
     width: 430px;
@@ -18,32 +19,17 @@
     left: 50%;
     top: 50%;
 }
+
 .background .shape{
     height: 200px;
     width: 200px;
     position: absolute;
     border-radius: 50%;
 }
-/*.shape:first-child{
-    background: linear-gradient(
-        #1845ad,
-        #23a2f6
-    );
-    left: -80px;
-    top: -80px;
-}
-.shape:last-child{
-    background: linear-gradient(
-        to right,
-        #ff512f,
-        #f09819
-    );
-    right: -30px;
-    bottom: -80px;
-} --*/
-.myform{
+
+form{
     height: 520px;
-    width: 400px;
+    width: 700px;
     background-color: rgba(255,255,255,0.13);
     position: absolute;
     transform: translate(-50%,-50%);
@@ -56,18 +42,21 @@
     padding: 50px 35px;
   
 }
-.myform *{
+
+
+form *{
     font-family: 'Poppins',sans-serif;
     color: #0f0e0e;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-.myform h3{
+form h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
     text-align: center;
+    color: rgb(136, 8, 8);
    
 }
 
@@ -76,7 +65,10 @@ label{
     margin-top: 30px;
     font-size: 16px;
     font-weight: 500;
+    color: rgb(136, 8, 8);
 }
+
+
 input{
     display: block;
     height: 50px;
@@ -87,10 +79,19 @@ input{
     margin-top: 8px;
     font-size: 14px;
     font-weight: 300;
+    
+    
   
 }
+
+input:focus{
+
+    border: 1px solid  rgb(136, 8, 8);;
+}
+
 ::placeholder{
     color: #151414;
+ 
 }
 button{
     margin-top: 50px;
@@ -106,22 +107,26 @@ button{
 .social{
   margin-top: 30px;
   display: flex;
+ 
 }
 .social div{
   background: red;
-  width: 150px;
+  width: 50%;
   border-radius: 3px;
   padding: 5px 10px 10px 5px;
   background-color: rgba(255,255,255,0.27);
-  color: #eaf0fb;
+  color: rgb(136, 8, 8);;
   text-align: center;
+
 }
 .social div:hover{
   background-color: rgba(255,255,255,0.47);
 }
 .social .fb{
   margin-left: 25px;
+  color: rgb(136, 8, 8);
 }
 .social i{
   margin-right: 4px;
+  
 }

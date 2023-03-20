@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import './Newapp.css';
+import './Newapp.css'
 import { useNavigate } from "react-router-dom";
 
 function Login() {
@@ -76,6 +76,10 @@ function Login() {
 
     <>
 
+    <div className="body">
+
+   
+
       < div style={{ color: "red" }}>
         {error ? <span>{error}</span> : null}
       </div >
@@ -86,7 +90,7 @@ function Login() {
       <form className="myform">
         <h3>Login Here</h3>
 
-        <label for="username">Username</label>
+        <label for ="username" >Username</label>
         <input type="text" placeholder="Email or Phone"
           name="userName"
           id="userName"
@@ -95,11 +99,11 @@ function Login() {
             setEmail(e.target.value);
           }} />
 
-        <label for="password">Password</label>
-        <input type="password" placeholder="Password" 
+        <label for="password" >Password</label>
+        <input type="password" placeholder="Password"
           name="password"
           id="pwd"
-       
+
           value={password}
           onChange={(e) => {
             setPassword(e.target.value);
@@ -111,6 +115,10 @@ function Login() {
           <div className="fb"><i className="fab fa-facebook"></i>  Facebook</div>
         </div>
       </form>
+
+      
+      
+    </div>
 
     </>
   );

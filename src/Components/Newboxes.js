@@ -1,8 +1,11 @@
 
-import React from "react"
+import React from "react";
+import '../App.css'
 
 
 const NewBoxes = () => {
+
+	
 
 
 	return (
@@ -62,7 +65,7 @@ const NewBoxes = () => {
 
 
 
-		
+			<canvas id="lineChart"></canvas>
 
 
 		</>

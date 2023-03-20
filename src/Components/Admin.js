@@ -1,6 +1,5 @@
 import React from "react";
-import Sidebar from "./Sidebar";
-import Header from "./Header";
+
 
 import Table from "./Table";
 import Bar from "./Bar";
@@ -19,7 +18,9 @@ function Admin() {
 
     <Newheader/>
     <NewBoxes />
-    <Table/> 
+    <Bar/>
+    {/* <Table/>  */}
+    
 
 
 

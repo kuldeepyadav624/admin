@@ -1,9 +1,9 @@
 import React from "react";
 
 function Table() {
-  return (
-    <>
-      	{/* <div class="row g-4 mb-4">
+	return (
+		<>
+			<div class="row g-4 mb-4">
 				<div class="col-12 col-lg-6">
 					<div class="app-card app-card-chart h-100 shadow-sm">
 						<div class="app-card-header p-3">
@@ -218,10 +218,10 @@ function Table() {
 						</div>
 					</div>
 				</div>
-			</div> */}
+			</div>
 
-    </>
-  );
+		</>
+	);
 }
 
 export default Table;
