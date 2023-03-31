@@ -6,17 +6,15 @@ import Private from "./Components/Private";
 
 function App() {
   return (
-    <div>
-      <BrowserRouter>
-        <Routes>
-          <Route element={<Private />}>
-            <Route path="/admin" element={<Admin />} />
-          </Route>
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Private />}>
+          <Route path="/admin" element={<Admin />} />
+        </Route>
 
-          <Route path="/" element={<Login />} />
-        </Routes>
-      </BrowserRouter>
-    </div>
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
