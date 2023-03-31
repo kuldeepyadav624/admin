@@ -7,6 +7,7 @@ import Private from "./Components/Private";
 
 function App() {
   return (
+<<<<<<< HEAD
     <div>
   <BrowserRouter>
    <Routes>
@@ -18,6 +19,17 @@ function App() {
         </Routes>
       </BrowserRouter> */}
     </div>
+=======
+    <BrowserRouter>
+      <Routes>
+        <Route element={<Private />}>
+          <Route path="/admin" element={<Admin />} />
+        </Route>
+
+        <Route path="/" element={<Login />} />
+      </Routes>
+    </BrowserRouter>
+>>>>>>> bfe79d3957e04a0dc5901f74134a91ca4a8f17b5
   );
 }
 

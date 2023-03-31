@@ -1,3 +1,11 @@
+#login-modal{
+    background-image:url('https://media.istockphoto.com/id/1129543554/photo/hand-giving-red-heart-for-help-blood-donation-hospital-or-healthcare-concept.jpg?b=1&s=170667a&w=0&k=20&c=QB8uK83dy7iwWUMudZ9ENu8711nADSyAqjKvypgk0zI=')!important;
+    background-repeat: no-repeat;
+    background-size:100%;
+    width: 100vw;
+    height: 100vh;
+}
+
 *,
 *:before,
 *:after{
@@ -5,13 +13,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+<<<<<<< HEAD
  section .body{
     background:url('https://media.istockphoto.com/id/1129543554/photo/hand-giving-red-heart-for-help-blood-donation-hospital-or-healthcare-concept.jpg?b=1&s=170667a&w=0&k=20&c=QB8uK83dy7iwWUMudZ9ENu8711nADSyAqjKvypgk0zI=');
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
+=======
+>>>>>>> bfe79d3957e04a0dc5901f74134a91ca4a8f17b5
 
-}
-.background{
+
+
+.login-background{
     width: 430px;
     height: 520px;
     position: absolute;
@@ -20,23 +32,21 @@
     top: 50%;
 }
 
-.background .shape{
+.login-background .shape{
     height: 200px;
     width: 200px;
     position: absolute;
     border-radius: 50%;
 }
 
-form{
+.myform{
     height: 520px;
     width: 700px;
-    background-color: rgba(255,255,255,0.13);
-    position: absolute;
-    transform: translate(-50%,-50%);
-    top: 50%;
-    left: 50%;
+    position: relative;
+    top: 20%;
+    left: 30%;
     border-radius: 10px;
-    backdrop-filter: blur(10px);
+    /* backdrop-filter: blur(10px); */
     border: 2px solid rgba(255,255,255,0.1);
     box-shadow: 0 0 40px rgba(8,7,16,0.6);
     padding: 50px 35px;
@@ -44,14 +54,14 @@ form{
 }
 
 
-form *{
+.myform *{
     font-family: 'Poppins',sans-serif;
     color: #0f0e0e;
     letter-spacing: 0.5px;
     outline: none;
     border: none;
 }
-form h3{
+.myform h3{
     font-size: 32px;
     font-weight: 500;
     line-height: 42px;
@@ -69,7 +79,7 @@ label{
 }
 
 
-input{
+.myinput{
     display: block;
     height: 50px;
     width: 100%;
@@ -84,16 +94,17 @@ input{
   
 }
 
-input:focus{
+.myinput:focus{
 
-    border: 1px solid  rgb(136, 8, 8);;
+    border: 1px solid  rgb(136, 8, 8);
+    background-color: transparent;
 }
 
 ::placeholder{
     color: #151414;
  
 }
-button{
+.mybutton{
     margin-top: 50px;
     width: 100%;
     background-color:rgb(136, 8, 8);
