@@ -13,7 +13,7 @@ const NewBoxes = () => {
 
 		<>
 
-			{/* <div class="app-wrapper">
+		<div class="app-wrapper">
 
 				<div class="app-content pt-3 p-md-3 p-lg-4">
 					<div class="row g-4 mb-4">
@@ -62,10 +62,14 @@ const NewBoxes = () => {
 					</div>
 
 				</div>
-			</div> */}
+			</div> 
 
 
-			<div className="app-wrapper">
+
+			{/* different component */}
+
+
+		 {/* <div className="app-wrapper">
 
 			<div class="app-content pt-3 p-md-3 p-lg-4">
 		
@@ -134,7 +138,7 @@ const NewBoxes = () => {
 
 				</div>
 
-				</div>
+				</div> */}
 
 
 			
