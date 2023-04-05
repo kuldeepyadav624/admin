@@ -13,13 +13,13 @@
     margin: 0;
     box-sizing: border-box;
 }
-<<<<<<< HEAD
  section .body{
     background:url('https://media.istockphoto.com/id/1129543554/photo/hand-giving-red-heart-for-help-blood-donation-hospital-or-healthcare-concept.jpg?b=1&s=170667a&w=0&k=20&c=QB8uK83dy7iwWUMudZ9ENu8711nADSyAqjKvypgk0zI=');
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
-=======
->>>>>>> bfe79d3957e04a0dc5901f74134a91ca4a8f17b5
+
+ }
+
 
 
 
@@ -141,3 +141,5 @@ label{
   margin-right: 4px;
   
 }
+
+

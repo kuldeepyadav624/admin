@@ -26,65 +26,17 @@ function Login() {
     }
   };
   return (
-    /*<div classNameName="wrapper">
     
-          <div style={{ color: "red" }}>
-            {error ? <span>{error}</span> : null}
-          </div>
-          <div classNameName="logo">
-            <img
-              src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-bird-symbols-png-logo-0.png"
-              alt="NGO"
-            />
-          </div>
-    
-    
-          <div classNameName="text-center mt-4 name">KULDEEP YADAV</div>
-          <form classNameName="p-3 mt-3">
-            <div classNameName="form-field d-flex align-items-center">
-              <span classNameName="far fa-user"></span>
-              <input
-                type="text"
-                name="userName"
-                id="userName"
-                placeholder="Username"
-                value={email}
-                onChange={(e) => {
-                  setEmail(e.target.value);
-                }}
-              />
-            </div>
-            <div classNameName="form-field d-flex align-items-center">
-              <span classNameName="fas fa-key"></span>
-              <input
-                type="password"
-                name="password"
-                id="pwd"
-                placeholder="Password"
-                value={password}
-                onChange={(e) => {
-                  setPassword(e.target.value);
-                }}
-              />
-            </div>
-            <button classNameName="btn mt-3" onClick={submitvalue}>Login</button>
-          </form>
-          {/* <div classNameName="text-center fs-6">
-            <a href="#">Forget password?</a> or <a href="#">Sign up</a>
-        </div> */
-
-<<<<<<< HEAD
-   <section className = "body" >
+  <section className = "body" >
 
       < div style={{ color: "red" }}>
         {error ? <span>{error}</span> : null}
       </div >
-      <div className="background">
-=======
+  <div className="background">
+
     <div id="login-modal" >
       <div style={{ color: "red" }}>{error ? <span>{error}</span> : null}</div>
       <div className="login-background">
->>>>>>> bfe79d3957e04a0dc5901f74134a91ca4a8f17b5
         <div className="shape"></div>
         <div className="shape"></div>
       </div>
@@ -127,15 +79,17 @@ function Login() {
           </div>
         </div>
       </form>
-<<<<<<< HEAD
+
+  </div>
+
+  </div>
 
       
-      </section>
+  </section>
     
-=======
-    </div>
->>>>>>> bfe79d3957e04a0dc5901f74134a91ca4a8f17b5
+    
   );
 }
+
 
 export default Login;
